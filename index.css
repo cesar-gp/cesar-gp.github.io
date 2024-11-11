@@ -1,0 +1,28 @@
+/* Responsive CSS block */
+@media (min-width:0px) {
+	/* Initial values for all screens */
+
+	#presentation {
+		align-items: center;
+		text-align: center;
+	}
+
+	#presentation ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+}
+
+@media (min-width:641px) {
+	/* Portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+	#presentation {
+		align-items: initial;
+		text-align: initial;
+		padding-left: 8%;
+	}
+
+	#presentation ul {
+		list-style-type: initial;
+		padding-left: var(--list-padding);
+	}
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<!--
+	"Social media" photo by Tracy LeBlanc on Pexels: https://www.pexels.com/photo/person-holding-iphone-showing-social-networks-folder-607812/
+
+	"Data analysis" photo by upklyak on Freepik: https://www.freepik.com/free-vector/data-analysis-business-concept-doodle-analysts-office-people-work-together-research-statistics-charts-graphs-diagrams-sales-management-operational-reports-line-art-vector-illustration_22488926.htm
+
+	"Coding" photo by storyset on Freepik: https://www.freepik.com/free-vector/coding-concept-illustration_82635880.htm#fromView=search&page=2&position=16&uuid=553d18ad-f799-4202-9075-dafa875d6c04
+
+	"Web design" photo by freepik on Freepik: https://www.freepik.com/free-vector/doodles-user-experience-elements_848541.htm#fromView=search&page=1&position=1&uuid=ef7c3ce8-d54f-4011-b3e0-079761cba2c1
+
+	"Video editing" photo by freepik on Freepik: https://www.freepik.com/free-vector/hand-drawn-movie-theater-drawing-illustration_144644492.htm#fromView=search&page=1&position=0&uuid=a1c13c1f-f8a5-4d19-814b-1708a0fb0c94
+-->
+
+<head>
+	<link rel="stylesheet" href="/assets/global.css">
+	<link rel="stylesheet" href="index.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>César Gutiérrez, UX</title>
+</head>
+<body>
+	<div class="wave"></div>
+	<div class="wave"></div>
+	<div class="wave"></div>
+	<nav class="flex row morepad">
+		<div class="hamburger hcentered short">
+			<input type="checkbox">
+			<span class="top"></span>
+			<span class="middle"></span>
+			<span class="bottom"></span>
+			<ul class="hamburgermenu blurbg">
+				<li>
+					<a href="/">
+						Inicio
+					</a>
+				</li>
+				<li>
+					<a href="/cv">
+						CV
+					</a>
+				</li>
+				<li>
+					<a href="/me">
+						Sobre mí
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="flex row spaced hcentered medium">
+			<div class="flex row spaced hcentered left">
+				<a href="/">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/home.svg">
+						</span>
+					</button>
+				</a>
+				<a href="/cv">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/briefcase.svg">
+						</span>
+					</button>
+				</a>
+				<a href="/me">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/user.svg">
+						</span>
+					</button>
+				</a>
+			</div>
+		</div>
+		<div class="flex row spaced hcentered long">
+			<div class="flex row spaced hcentered left">
+				<a href="/">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/home.svg">
+						</span>
+					</button>
+				</a>
+				<a href="/cv">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/briefcase.svg">
+							<span class="hidden">CV</span>
+						</span>
+					</button>
+				</a>
+				<a href="/me">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/user.svg">
+							<span class="hidden">Sobre mí</span>
+						</span>
+					</button>
+				</a>
+			</div>
+		</div>
+		<div class="flex row spaced hcentered right">
+			<a href="https://instagram.com/asdf_cesar" target="_blank">
+				<button class="instagram flex row vcentered">
+					<img class="icon" src="/assets/img/icons/instagram.svg">
+				</button>
+			</a>
+			<a href="https://www.linkedin.com/in/cesar-gutierrez-perez/" target="_blank">
+				<button class="linkedin flex row vcentered">
+					<img class="icon" src="/assets/img/icons/linkedin.svg">
+				</button>
+			</a>
+			<a href="mailto:cesar.gutierrez.merida@gmail.com" target="_blank">
+				<button class="gmail flex row vcentered">
+					<img class="icon" src="/assets/img/icons/mail.svg">
+				</button>
+			</a>
+		</div>
+	</nav>
+	<div class="grid morepad fadein-y nopad-top">
+		<div id="welcome" class="box bigpad flex col gridleft">
+			<h1>¡Bienvenido!</h1>
+			<div class="long flex row hcentered spaced">
+				<p>
+					Aquí tienes los detalles sobre mi vida profesional.
+					<br>
+					<b>¿Prefieres verlo en PDF?</b>
+					<a href="/assets/pdf/Currículum.pdf" target="_blank">Haz click aquí</a>.
+				</p>
+			</div>
+			<div class="medium flex row spaced">
+				<p>
+					Aquí tienes mi CV en web.
+					<br>
+					También está <a href="/assets/pdf/Currículum.pdf" target="_blank">en PDF</a>.
+				</p>
+			</div>
+			<div class="short flex row spaced">
+				<p>
+					A mi CV en versión web.
+					<br>
+					También está
+					<a href="/assets/pdf/Currículum.pdf" target="_blank">en PDF</a>.
+				</p>
+			</div>
+		</div>
+		<div id="control" class="box bigpad flex row gridright">
+			<div class="grid hstretch">
+				<a href="#skills" class="gridleft hstretch">
+					<button class="action hstretch">
+						<span class="long flex spaced">
+							<img class="icon" src="/assets/img/icons/tool.svg">
+							<span>Habilidades</span>
+						</span>
+						<span class="medium flex spaced">
+							<img class="icon" src="/assets/img/icons/tool.svg">
+						</span>
+						<span class="short flex spaced">
+							<img class="icon" src="/assets/img/icons/tool.svg">
+							<span>Habilidades</span>
+						</span>
+					</button>
+				</a>
+				<a href="#certificates" class="gridright hstretch">
+					<button class="action hstretch">
+						<span class="long flex spaced">		<img class="icon" src="/assets/img/icons/pen-tool.svg">
+							<span>Formación</span>
+						</span>
+						<span class="medium flex spaced">
+							<img class="icon" src="/assets/img/icons/pen-tool.svg">
+						</span>
+						<span class="short flex spaced">
+							<img class="icon" src="/assets/img/icons/pen-tool.svg">
+							<span>Formación</span>
+						</span>
+					</button>
+				</a>
+				<a href="#experience" class="gridleft hstretch">
+					<button class="action hstretch">
+						<span class="long flex spaced">
+							<img class="icon" src="/assets/img/icons/coffee.svg">
+							<span>Experiencia</span>
+						</span>
+						<span class="medium flex spaced">
+							<img class="icon" src="/assets/img/icons/coffee.svg">
+						</span>
+						<span class="short flex spaced">
+							<img class="icon" src="/assets/img/icons/coffee.svg">
+							<span>Experiencia</span>
+						</span>
+					</button>
+				</a>
+				<a href="#achievements" class="gridright hstretch">
+					<button class="action hstretch">
+						<span class="long flex spaced">
+							<img class="icon" src="/assets/img/icons/award.svg">
+							<span>Logros</span>
+						</span>
+						<span class="medium flex spaced">
+							<img class="icon" src="/assets/img/icons/award.svg">
+						</span>
+						<span class="short flex spaced">
+							<img class="icon" src="/assets/img/icons/award.svg">
+							<span>Logros</span>
+						</span>
+					</button>
+				</a>
+			</div>
+		</div>
+		<div id="content" class="grid gridtitle">
+			<div id="skills" class="band flex col gridtitle">
+				<h1 class="nopad">Habilidades</h1>
+			</div>
+			<div id="skills-list" class="flex row spaced hscroll bigpad bigspaced hpad gridtitle">
+				<div class="card">
+					<img src="/assets/img/cv/skills/social-media.webp">
+					<span class="nopad"><b>Redes sociales</b></span>
+					<a href="/cv/skills/social-media">Saber más →</a>
+				</div>
+				<div class="card">
+					<img src="/assets/img/cv/skills/data-analysis.webp">
+					<span class="nopad"><b>Análisis de datos</b></span>
+					<a href="/cv/skills/data-analysis">Saber más →</a>
+				</div>
+				<div class="card">
+					<img src="/assets/img/cv/skills/coding.webp">
+					<span class="nopad"><b>Programación</b></span>
+					<a href="/cv/skills/coding">Saber más →</a>
+				</div>
+				<div class="card">
+					<img src="/assets/img/cv/skills/web-design.webp">
+					<span class="nopad"><b>Diseño web</b></span>
+					<a href="/cv/skills/web-design">Saber más →</a>
+				</div>
+				<div class="card">
+					<img src="/assets/img/cv/skills/video-editing.webp">
+					<span class="nopad"><b>Edición foto/vídeo</b></span>
+					<a href="/cv/skills/video-editing">Saber más →</a>
+				</div>
+			</div>
+			<div id="skills-content" class="grid hpad gridtitle">
+				<div class="box flex col bigpad gridleft">
+					<h2>Idiomas</h2>
+					<div class="flex col indent">
+						<p>🇬🇧 Inglés (B2)</p>
+						<p>🇪🇸 Español nativo</p>
+					</div>
+				</div>
+				<div class="box flex col bigpad gridright">
+					<div class="long">
+						<h2>Competencias digitales</h2>
+					</div>
+					<div class="medium">
+						<h2>Comp. digitales</h2>
+					</div>
+					<div class="short">
+						<h2>Competencias digitales</h2>
+					</div>
+					<div class="flex col indent">
+						<p>✍️ Office y LibreOffice.</p>
+						<p>📱 Redes sociales.</p>
+						<p>📈 SPSS, Gephi, GA4.</p>
+						<p>☁️ Drive, Teams, Dropbox.</p>
+						<p>🤖 Programación app y web.</p>
+					</div>
+
+					<div class="flex col long">
+						<p>
+							<br>
+							El código de esta web está hecho por mí.
+							<br>
+							<a href="https://github.com/cesar-gutierrez-perez/cesar-gutierrez-perez.github.io">Puedes verlo en GitHub</a>
+						</p>
+					</div>
+					<div class="flex col medium">
+						<p>
+							<br>
+							He hecho de esta web de cero.
+							<br>
+							<a href="https://github.com/cesar-gutierrez-perez/cesar-gutierrez-perez.github.io">Míralo en GitHub</a>
+						</p>
+					</div>
+					<div class="flex col short">
+						<p>
+							<br>
+							He hecho de esta web desde cero.
+							<br>
+							<a href="https://github.com/cesar-gutierrez-perez/cesar-gutierrez-perez.github.io">Mira el código en GitHub</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="certificates" class="band flex col gridtitle">
+				<h1 class="nopad">Formación</h1>
+			</div>
+			<div id="certificates-content" class="grid hpad gridtitle">
+				<div id="certificates-list" class="flex row spaced hscroll bigpad bigspaced gridtitle">
+					<div class="card">
+						<img src="/assets/img/cv/certificates/google.webp">
+						<span class="nopad"><b>Curso de Exp. de Usuario</b></span>
+						<a href="/cv/certificates/ux-google">Saber más →</a>
+					</div>
+					<div class="card">
+						<img src="/assets/img/cv/certificates/uoc.webp">
+						<span class="nopad"><b>Máster en Social Media</b></span>
+						<a href="/cv/certificates/social-media-uoc">Saber más →</a>
+					</div>
+					<div class="card">
+						<img src="/assets/img/cv/certificates/usal.webp">
+						<span class="nopad"><b>Grado en Sociología</b></span>
+						<a href="/cv/certificates/sociology-usal">Saber más →</a>
+					</div>
+				</div>
+			</div>
+			<div id="experience" class="band flex col gridtitle">
+				<h1 class="nopad">Experiencia</h1>
+			</div>
+			<div id="experience-content" class="grid hpad gridtitle">
+				<div class="box bigpad gridtitle">
+					<h2 class="linespaced nopad newline">Técnico de investigación en SOCYL</h1>
+					<h3 class="bignewline">Asociación Profesional de Sociología de Castilla y León</h3>
+					<ul>
+						<li>Realización de encuestas</li>
+						<li>Redacción de candidaturas a pliegos</li>
+						<li>Análisis de datos para EDL</li>
+					</ul>
+					<p>
+						<a href="https://socyl.es/">Página de SOCYL →</a>
+					</p>
+				</div>
+			</div>
+			<div id="achievements" class="band flex col gridtitle">
+				<h1 class="nopad">Logros</h1>
+			</div>
+			<div id="achievements-content" class="grid hpad gridtitle">
+				<div class="box bigpad gridtitle">
+					<h2 class="linespaced nopad newline">Premio SOCYL al mejor TFG</h1>
+					<h3 class="bignewline">Trabajo y consumo en el capitalismo de plataformas</h2>
+					<ul>
+						<li>Revista Trazas de Ciencias Sociales, 1(1)</li>
+						<li>DOI: 10.48225/8x1ctc52.</li>
+					</ul>
+					<p><a href="https://doi.org/10.48225/8x1ctc52">Accede a mi trabajo →</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="/assets/global.js"></script>
+</body>

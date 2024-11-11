@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<!--
+	Background animation by Bárbara Rodríguez:
+	https://codepen.io/baarbaracrr/pen/KKovmGb
+-->
+<head>
+	<link rel="stylesheet" href="/assets/global.css">
+	<link rel="stylesheet" href="index.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>César Gutiérrez, UX</title>
+</head>
+<body>
+	<div class="wave"></div>
+	<div class="wave"></div>
+	<div class="wave"></div>
+	<nav class="flex row morepad">
+		<div class="hamburger hcentered short">
+			<input type="checkbox">
+			<span class="top"></span>
+			<span class="middle"></span>
+			<span class="bottom"></span>
+			<ul class="hamburgermenu blurbg">
+				<li>
+					<a href="/">
+						Inicio
+					</a>
+				</li>
+				<li>
+					<a href="/cv">
+						CV
+					</a>
+				</li>
+				<li>
+					<a href="/me">
+						Sobre mí
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="flex row spaced hcentered medium">
+			<div class="flex row spaced hcentered left">
+				<a href="/">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/home.svg">
+						</span>
+					</button>
+				</a>
+				<a href="/cv">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/briefcase.svg">
+						</span>
+					</button>
+				</a>
+				<a href="/me">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/user.svg">
+						</span>
+					</button>
+				</a>
+			</div>
+		</div>
+		<div class="flex row spaced hcentered long">
+			<div class="flex row spaced hcentered left">
+				<a href="/">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/home.svg">
+						</span>
+					</button>
+				</a>
+				<a href="/cv">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/briefcase.svg">
+							<span class="hidden">CV</span>
+						</span>
+					</button>
+				</a>
+				<a href="/me">
+					<button>
+						<span>
+							<img class="icon" src="/assets/img/icons/user.svg">
+							<span class="hidden">Sobre mí</span>
+						</span>
+					</button>
+				</a>
+			</div>
+		</div>
+		<div class="flex row spaced hcentered right">
+			<a href="https://instagram.com/asdf_cesar" target="_blank">
+				<button class="instagram flex row vcentered">
+					<img class="icon" src="/assets/img/icons/instagram.svg">
+				</button>
+			</a>
+			<a href="https://www.linkedin.com/in/cesar-gutierrez-perez/" target="_blank">
+				<button class="linkedin flex row vcentered">
+					<img class="icon" src="/assets/img/icons/linkedin.svg">
+				</button>
+			</a>
+			<a href="mailto:cesar.gutierrez.merida@gmail.com" target="_blank">
+				<button class="gmail flex row vcentered">
+					<img class="icon" src="/assets/img/icons/mail.svg">
+				</button>
+			</a>
+		</div>
+	</nav>
+	<div class="grid fadein-y morepad nopad-top">
+		<div id="presentation" class="box flex col bigpad vcentered gridleft">
+			<h1 id="name">César Gutiérrez</h1>
+			<ul>
+				<li class="linespaced" id="job">
+					Sociólogo
+				</li>
+				<li class="linespaced" id="job">
+					Social Media Manager
+				</li>
+				<li class="linespaced" id="job">
+					Diseñador de
+					<a href="#pum" onclick="
+						party.confetti(this, {
+							count: party.variation.range(20, 40),
+							size: party.variation.range(0.8, 1.2),
+						});
+					">
+						Experiencia de Usuario
+					</a>
+				</li>
+			</ul>
+			<a href="/cv">
+				<button class="action">
+					<b>¿Quieres saber más? →</b>
+				</button>
+			</a>
+		</div>
+		<div class="box flex col gridright hcentered vcentered">
+			<img id="face" src="/assets/img/face1.webp">
+		</div>
+	</div>
+
+	<script src="/assets/js/party.min.js"></script>
+</body>
