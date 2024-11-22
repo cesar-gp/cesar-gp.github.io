@@ -1,6 +1,6 @@
 # Online CV for César Gutiérrez
 Hi! This is the GitHub page for my online CV.
-You can access it clicking on [this link](https://cesar-gutierrez-perez.github.io/).
+You can access it clicking on [this link](https://cesar-gp.github.io/).
 
 ## Who am I?
 Well, I'm a sociologist and social media manager who's also interested in programming and UX design. Oh, and I'm from Spain.
