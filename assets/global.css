@@ -55,7 +55,6 @@
 	 * Arbitrary defaults
 	 */
 	--list-padding: 3em;
-	--max-body-width: 1366px;
 }
 
 @font-face {
@@ -185,7 +184,6 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	max-width: var(--max-body-width);
 	margin-left: auto;
 	margin-right: auto;
 
